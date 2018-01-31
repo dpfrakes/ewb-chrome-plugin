@@ -1,0 +1,23 @@
+.ewb-plugin-banner {
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font: 400 32px/40px Helvetica,Arial,sans-serif;
+  color: white;
+}
+
+.ewb-plugin-banner-dev {
+  background: blue;
+  z-index: 997;
+}
+
+.ewb-plugin-banner-test {
+  background: orange;
+  z-index: 998;
+}
+
+.ewb-plugin-banner-prod {
+  background: red;
+  z-index: 999;
+}
